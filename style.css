@@ -1,0 +1,28 @@
+button{
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+    font-weight: bold;
+    width: 125px;
+    border-radius: 20px;
+}
+.follow{
+    color: white;
+    background-color: rgb(79, 79, 163);
+    transition:0.3s;
+
+}
+    
+.signin{
+    background:linear-gradient(to right,#ffb347,#ff4d94)
+}
+.signin:hover {
+    opacity:0.9;
+    transform:translateY(-2px);
+}
+.follow:hover {
+    box-shadow: black 0px,10px,10px,0px;
+    background-color: rgb(40, 40, 229);
+}
+
+
